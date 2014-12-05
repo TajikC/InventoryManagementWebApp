@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16pt;
+}
+
+body {
+    margin: 2rem 10%;
+    background-image: url("/images/hatch.jpg");
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border-bottom: dotted orange;
+    font-family: monospace;
+    padding: 0.5rem;;
+}
+
+#main-app {
+    background-color: #fff;
+    padding: 2%;
+}
+
+#nav-top-options ul {
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#nav-top-options ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#nav-top-options li {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem 0.2rem 1rem;
+    color: #9d9797;
+}
+
+#nav-top-options li:hover {
+    cursor: pointer;
+}
+
+#nav-top-options li.selected {
+    color: #fc8b00;
+    border-bottom: solid 0.2rem #fc8b00;
+    font-weight: bold;
+}
+
+#tabbed-content section {
+    display: none;
+}
+
+#tabbed-content section.visible-content {
+    display: block;
+}
+
+#rent-inventory-select-container {
+    display: inline-block;
+    width: 48%;
+}
+
+#rent-inventory-select {
+    width: 90%;
+}
+
+#rent-to-checkout {
+    width: 90%;
+    border-radius: 0 1rem 1rem 0;
+}
+
+#rent-checkout-select-container {
+    display: inline-block;
+    width: 48%;
+}
+
+#rent-checkout-select {
+    width: 90%;
+}
+
+#rent-to-inventory {
+    width: 90%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+label {
+    display: block;
+}
+
+#rent-left-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 52%;
+}
+
+#rent-right-box {
+    display: inline-block;
+    width: 42%;
+}
+
+#rent-user-input {
+    width: 50%;
+}
+
+#rent-checkout-button {
+    width: 90%;
+    height: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.primary-action-button {
+    background-color: #F5CA56;
+    font-family: monospace;
+    font-size: 1.1rem;
+    border-radius: 0.25rem;
+}
+
+.secondary-action-button {
+    font-family: monospace;
+    font-size: 1.1rem;
+    background-color: #E8E6DF;
+    padding: 0.25rem;
+}
